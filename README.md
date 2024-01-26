@@ -1,2 +1,2 @@
-# dio-primeiro-repositorio-seesh
-Desafio de projeto sobre git/github 
+# dio-primeiro-repositório-seesh
+Repositório criado para desafio de projeto
