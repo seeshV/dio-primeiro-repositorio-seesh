@@ -1,3 +1,15 @@
 link para basic syntax: https://www.markdownguide.org/basic-syntax/
 
 o git bash é um terminal para otimizar o uso do git.
+
+códigos úteis: 
+
+ git clone = clonar o repositório
+
+ git status = checar se está tudo certo	
+
+ git add . ou git add -a = adicionar todos os arquivos 
+ 
+ git commit -m “Inclusão das anotações do curso de Git/GitHub” = fazer a leitura de todos os arquivos
+
+ git push origin main = adicionar da máquina para a nuvem 
