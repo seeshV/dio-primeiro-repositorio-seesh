@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinica Hospitalar - Página Principal</title>
+    <style> 
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .sidebar {
+            height: 100%;
+            width: 200px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #f4f4f4;
+            padding-top: 20px;
+        }
+
+        .sidebar a {
+            padding: 10px;
+            text-decoration: none;
+            display: block;
+            color: #333;
+        }
+
+        .sidebar a:hover {
+            background-color: #ddd;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .content {
+            width: 80%;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo à Clínica Hospitalar VIVA+ </h1>
+    </header>
+            
+    <div class="container">
+        <div class="sidebar">
+            <a href="Pagina.html">Agende</a>
+        </div>
+            <!DOCTYPE html>
+                <html lang="pt-br">
+                <head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Tabela de Preços</title>
+                    <style>
+                        table {
+                            width: 80%;
+                            border-collapse: collapse;
+                            margin-bottom: 15px;
+                        }
+                
+                        th, td {
+                            border: 1px solid #ddd;
+                            padding: 7px;
+                            text-align: center;
+                        }
+                
+                        th {
+                            background-color: #f2f2f2;
+                        }
+                
+                        tr:nth-child(even) {
+                            background-color: #f2f2f2;
+                        }
+                    </style>
+                </head>
+                <body>
+                    <h2>Tabela de Preços</h2>
+                    <table>
+                        <tr>
+                            <th>Serviço</th>
+                            <th>Segunda-feira a Sexta-feira</th>
+                            <th>Sábado</th>
+                            <th>Domingo</th>
+                        </tr>
+                        <tr>
+                            <td>Consulta Médica</td>
+                            <td>R$ 100,00</td>
+                            <td>R$ 120,00</td>
+                            <td>R$ 150,00</td>
+                        </tr>
+                        <tr>
+                            <td>Exame de Sangue</td>
+                            <td>R$ 50,00</td>
+                            <td>R$ 60,00</td>
+                            <td>R$ 70,00</td>
+                        </tr>
+                        <tr>
+                            <td>Raios-X</td>
+                            <td>R$ 80,00</td>
+                            <td>R$ 90,00</td>
+                            <td>R$ 100,00</td>
+                        </tr>
+                        
+                    </table>
+                </body>
+                </html>
+                <hr>
+                <h2><img src="data:image/png;base64,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" alt="imagem descrevendo a clinica viva mais"></h2>
+        <div class="content">
+            <h2>Sobre Nós</h2>
+            <p>Somos uma clínica hospitalar de referência na região, comprometida em fornecer serviços de saúde de alta qualidade para nossos pacientes. Nossa equipe é formada por profissionais altamente qualificados, incluindo médicos, enfermeiros, técnicos e outros especialistas, todos dedicados a garantir o melhor atendimento possível.</p>
+            <hr>
+            <h2>Nossos Serviços</h2>
+            <p>Oferecemos uma ampla gama de serviços médicos, incluindo consultas em várias especialidades, exames de diagnóstico, tratamentos clínicos e cirúrgicos, além de serviços de emergência e internação. Utilizamos tecnologia de ponta e procedimentos modernos para garantir diagnósticos precisos e tratamentos eficazes para nossos pacientes.</p>
+            <hr>
+            <h2>Contato</h2>
+            <p>Telefone: (41) 99002-8922</p>
+            <p>WhatsApp: (41) 9112-7811</p>
+            <hr>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Rodapé - © 2024 Clinica VIVA+. Todos os direitos reservados.</p>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <style> 
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .sidebar {
+            height: 100%;
+            width: 200px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #f4f4f4;
+            padding-top: 20px;
+        }
+
+        .sidebar a {
+            padding: 10px;
+            text-decoration: none;
+            display: block;
+            color: #333;
+        }
+
+        .sidebar a:hover {
+            background-color: #ddd;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        form {
+            width: 80%;
+            margin-top: 20px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        input[type="submit"],
+        input[type="reset"] {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover,
+        input[type="reset"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <a href="paginaP.html">Página principal</a>
+        </div>
+
+        <h1>Essa é nossa Localização.</h1>
+        <p>
+            <h3>Favor verificar os horários disponíveis.
+                para isso, ligue para 41990028922 ou mande um e-mail para clinicavivamais@gmail.com   
+            </h3>
+        </p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4283.098779890299!2d-49.27143650144065!3d-25.483613298944665!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce4b655555555%3A0x17056f18e66b4208!2sPipoteca!5e0!3m2!1spt-BR!2sbr!4v1710787699390!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h2>Entre em contato conosco:</h2>
+        <form action="#" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="assunto">Assunto:</label>
+            <input type="text" id="assunto" name="assunto" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar Formulário">
+        </form>
+    </div>
+
+    <div class="footer">
+        <p>Rodapé - © 2024 Clinica VIVA+. Todos os direitos reservados.</p>
+    </div>
+</body>
+</html>
